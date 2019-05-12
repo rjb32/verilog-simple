@@ -16,7 +16,7 @@ in a `build` directory by default.
 
 The `Makefile` can be customized to be used in other projects.
 
-## Build
+## Usage
 
 Build the Verilog module and test bench:
 ```bash
@@ -26,4 +26,9 @@ make
 Run the test bench simulation:
 ```bash
 make sim
+```
+
+The `bench` executable can be also run directly:
+```bash
+build/bench
 ```
