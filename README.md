@@ -12,9 +12,18 @@ The C++ test bench implemented in `bench.cpp` can be used to test the
 `max4` module.
 Verilator is used to compile the Verilog module to C++, and also to
 build and link the C++ test bench. Files produced by Verilator are generated
-in a `build` directory by default.
+in the `build` directory by default.
 
 The `Makefile` can be customized to be used in other projects.
+
+## Requirements
+
+[Verilator](https://www.veripool.org/wiki/verilator) must be
+installed and available in your `PATH`. For Ubuntu and Debian, Verilator
+can be installed using the distribution package manager:
+```bash
+apt-get install verilator
+```
 
 ## Usage
 
